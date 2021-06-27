@@ -1,0 +1,30 @@
+{
+  "name": "logbot",
+  "version": "1.0.0",
+  "description": "Selfbot Discord qui enregistre tout les messages qu'il reçoit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "logbot": "./index.js"
+  },
+  "keywords": [
+    "selfbot",
+    "discord",
+    "log"
+  ],
+  "author": "JohanStickman",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "conf": "^10.0.1",
+    "discord.js": "^11.4.2",
+    "hastebin.js": "^1.3.2",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
+    "open": "^8.2.1",
+    "prompt": "^1.1.0",
+    "terminal-kit": "^2.1.5"
+  }
+}
